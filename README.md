@@ -6,7 +6,7 @@ This project showcases a fully automated data pipeline using the powers of AWS l
 ![image](images/weather_image.jpeg)
 
 
-**The starting point of this task is to create a weather api and access api keys to collect real-time weather data like city name, temperature, weather and timestamp of taregetd location. 
+The starting point of this task is to create a weather api and access api keys to collect real-time weather data like city name, temperature, weather and timestamp of taregetd location. 
 An event bridge is initiated to trigger thelambda function hourly and scheduling the events.
 The row data is processed through the lambda function and stored in the Dynamo DB.
 
