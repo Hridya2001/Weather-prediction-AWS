@@ -19,11 +19,15 @@ Once the data in added, modified or deleted from the table the Dynamo DB stream 
 They trigger the next lambda function to archive the modified data into s3 bucket.
 
 
+![image](images/s3_bucket.png)
+
+
 Storage integration Securely connects S3 with Snowflake for seamless data transfer.
 In the process s3 serves as an external stage for snowflake.
 For the automatic and continuous ingestion of data from s3 to snowflake table we created a snowpipe which is triggerd by the SQS queue. 
 
 
+![image](images/snowflake_image.png)
 Fianlly calculate the average temperature and the weather forcast od each cities.
 
 
