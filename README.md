@@ -50,6 +50,6 @@ For the automatic and continuous ingestion of data from s3 to snowflake table we
 
 
 
-Fianlly calculate the average temperature and the weather forcast od each cities.
+Fianlly calculate the average temperature and the weather forcast of each cities.
 
 
