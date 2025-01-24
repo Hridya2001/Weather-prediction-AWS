@@ -8,7 +8,7 @@ This project showcases a fully automated data pipeline using the powers of AWS l
 
 
 
-The starting point of this task is to create a weather api to collect real-time weather data including city name, temperature, weather and timestamp of taregetd location. API keys are used to securely access the OpenWeather API.
+**.** The starting point of this task is to create a weather api to collect real-time weather data including city name, temperature, weather and timestamp of taregetd location. API keys are used to securely access the OpenWeather API.
 
 
 
