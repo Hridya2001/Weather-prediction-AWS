@@ -8,7 +8,7 @@ This project showcases a fully automated data pipeline using the powers of AWS l
 
 
 
-**.** The starting point of this task is to create a weather api to collect real-time weather data including city name, temperature, weather and timestamp of taregetd location. API keys are used to securely access the OpenWeather API.
+The starting point of this task is to create a weather api to collect real-time weather data including city name, temperature, weather and timestamp of taregetd location. API keys are used to securely access the OpenWeather API.
 
 
 
@@ -39,7 +39,7 @@ They trigger the next lambda function to archive the modified data into s3 bucke
 
 
 
-Storage integration Securely connects S3 with Snowflake for seamless data transfer.
+Storage integration Securely connects S3 with Snowflake for seamless and efficient data transfer.
 
 
 In the process s3 serves as an external stage for snowflake  providing a staging area for data ingestion.
