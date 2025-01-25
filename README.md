@@ -31,3 +31,6 @@ Used weather data from the [OpenWeather API](https://openweathermap.org/api). Th
      - Processes new weather data from DynamoDB Streams and archives it into an S3 bucket for analysis.
 3. [Snowflake_query.txt](Project_queries/Snowflake_query.txt)
      - Creates a Snowflake stage for seamless integration with the S3 bucket. Ingests new data into Snowflake tables using Snowpipe and performs basic transformations.Calculates the average hourly temperature and weather prediction for the 15 target cities.
+  
+## Output Showcase 
+1. ![Dynamo_db_table](images/DynamoDB_image.png)
