@@ -43,5 +43,5 @@ Used weather data from the [OpenWeather API](https://openweathermap.org/api). Th
 
 ### Weather Table
  ![Snowflake table](/images/snowflake_image.png)
-   - notes: Results of SQL queries in Snowflake showing the average temperature and weather forcast for 15 cities, calculated from real-time weather data.
+   - notes: Results of SQL queries in Snowflake showing the weather forcast date, predicted temperature and predicted weather for 15 cities, calculated from real-time weather data.
      
