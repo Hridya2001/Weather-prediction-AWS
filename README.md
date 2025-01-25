@@ -5,3 +5,15 @@ This project showcases a real-time weather data pipeline designed to predict wea
 
 ## Architecture
 ![Architecture](images/weather_image.jpeg)
+
+## Technology Used
+1. Programming Language - Python
+2. Scripting Language - SQL
+3. AWS
+   - lambda
+   - Event Bridge
+   - Dynamo DB
+   - S3
+   - SQS
+4. Snowflake
+   
