@@ -25,4 +25,4 @@ Used weather data from the [OpenWeather API](https://openweathermap.org/api). Th
 3. Usage in the Project: The weather data fetched from the OpenWeather API is processed every hour, stored in DynamoDB and S3, Ultimately used to calculate average temperatures and forecast weather patterns.
    
 ## The Scripts
-1. (weather_fetch.py/weather_fetch.py)
+1. [weather_fetch.py](weather_fetch.py)
