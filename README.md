@@ -35,13 +35,13 @@ Used weather data from the [OpenWeather API](https://openweathermap.org/api). Th
 ## Output Showcase 
 ### Dynamo DB table
  ![Dynamo_db_table](images/DynamoDB_image.png)
-    - notes: this image signifies the Dynamo DB table storing the weather data. Major fields include city name, timestamp, weather and temperature.
+   - notes: this image signifies the Dynamo DB table storing the weather data. Major fields include city name, timestamp, weather and temperature.
 
 ### S3 Bucket
  ![S3 bucket](images/s3_bucket.png)
-    - notes: S3 bucket containing archived weather data files. Each file corresponds to an hourly update for target locations.
+   - notes: S3 bucket containing archived weather data files. Each file corresponds to an hourly update for target locations.
 
 ### Weather Table
  ![Snowflake table](/images/snowflake_image.png)
-    - notes: Results of SQL queries in Snowflake showing the weather forcast date, predicted temperature and predicted weather for 15 cities, calculated from real-time weather data.
+   - notes: Results of SQL queries in Snowflake showing the weather forcast date, predicted temperature and predicted weather for 15 cities, calculated from real-time weather data.
      
