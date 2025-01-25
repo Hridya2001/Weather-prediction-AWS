@@ -16,4 +16,7 @@ This project showcases a real-time weather data pipeline designed to predict wea
    - S3
    - SQS
 4. Snowflake
+
+## Data Source
+Used weather data from the [OpenWeather API](https://openweathermap.org/api). The API provides real-time weather updates, including city name, temperature, weather condition and timestamp, for various cities in India.
    
