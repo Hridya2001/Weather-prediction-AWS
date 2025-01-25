@@ -25,9 +25,9 @@ Used weather data from the [OpenWeather API](https://openweathermap.org/api). Th
 3. Usage in the Project: The weather data fetched from the OpenWeather API is processed every hour, stored in DynamoDB and S3, Ultimately used to calculate average temperatures and forecast weather patterns.
    
 ## The Scripts
-1. [weather_fetch.py](weather_fetch.py)
+1. [weather_fetch.py](Project_queries/weather_fetch.py)
     - Fetches hourly weather data from the OpenWeather API using an API key and stores it in DynamoDB.
-2. [dynamodb_stream.py](dynamodb_stream.py)
+2. [dynamodb_stream.py](Project_queries/dynamodb_stream.py)
      - Processes new weather data from DynamoDB Streams and archives it into an S3 bucket for analysis.
-3. [Snowflake_query.txt](Snowflake_query.txt)
+3. [Snowflake_query.txt](Project_queries/Snowflake_query.txt)
      - Creates a Snowflake stage for seamless integration with the S3 bucket. Ingests new data into Snowflake tables using Snowpipe and performs basic transformations.Calculates the average hourly temperature and weather prediction for the 15 target cities.
