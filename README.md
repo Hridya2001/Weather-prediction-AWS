@@ -22,7 +22,7 @@ Used weather data from the [OpenWeather API](https://openweathermap.org/api). Th
 
 1. API Endpoint: https://openweathermap.org/api
 2. API_KEY: '2d9edf547e934049ae34de80e57d9e70'
-3. Usage in the Project: The weather data fetched from the OpenWeather API is processed every hour, stored in DynamoDB and S3, Ultimately used to calculate average temperatures and forecast weather patterns.
+3. Usage in the Project: The weather data fetched from the OpenWeather API is processed every hour, stored in DynamoDB and S3, ultimately used to calculate average temperatures and forecast weather patterns.
    
 ## The Scripts
 1. [weather_fetch.py](Project_queries/weather_fetch.py)
