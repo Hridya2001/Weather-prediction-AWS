@@ -33,6 +33,7 @@ Used weather data from the [OpenWeather API](https://openweathermap.org/api). Th
      - Creates a Snowflake stage for seamless integration with the S3 bucket. Ingests new data into Snowflake tables using Snowpipe and performs basic transformations.Calculates the average hourly temperature and weather prediction for the 15 target cities.
   
 ## Output Showcase 
-### * Dynamo DB table
+### Dynamo DB table
  ![Dynamo_db_table](images/DynamoDB_image.png)
-   - Notes: 
+   - Notes: this image signifies the Dynamo DB table storing the weather data. Major fields include city name, timestamp, weather and temperature.
+     
