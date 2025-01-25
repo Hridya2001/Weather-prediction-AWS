@@ -26,3 +26,4 @@ Used weather data from the [OpenWeather API](https://openweathermap.org/api). Th
    
 ## The Scripts
 1. [weather_fetch.py](weather_fetch.py)
+- Fetches hourly weather data from the OpenWeather API using an API key and stores it in DynamoDB.
