@@ -13,7 +13,7 @@ dynamodb = boto3.resource('dynamodb', region_name='ap-south-1')
 table = dynamodb.Table('weatherdb_table')  # Replace with your table name
 
 # OpenWeather API Key
-API_KEY = '2d9edf547e934049ae34de80e57d9e70'
+API_KEY = ''
 
 def fetch_weather(city):
     """Fetch the latest weather data for a given city."""
