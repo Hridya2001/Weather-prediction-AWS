@@ -20,7 +20,7 @@ This project showcases a real-time weather data pipeline designed to predict wea
 ## Data Source
 Used weather data from the [OpenWeather API](https://openweathermap.org/api). The API provides real-time weather updates, including city name, temperature, weather condition and timestamp, for various cities in India.
 
-1. API Endpoint: https://openweathermap.org/api
+1. API Endpoint:
 2. API_KEY: 
 3. Usage in the Project: The weather data fetched from the OpenWeather API is processed every hour, stored in DynamoDB and S3, ultimately used to calculate average temperatures and forecast weather patterns.
    
